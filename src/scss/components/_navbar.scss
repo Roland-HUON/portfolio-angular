@@ -1,0 +1,13 @@
+header{
+    margin: 80px;
+    nav{
+        ul{
+            list-style: none;
+            li{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+        }
+    }
+}
