@@ -1,11 +1,15 @@
+@import "../abstracts/variables";
 header{
     margin: 80px;
     nav{
         ul{
             list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
             li{
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 justify-content: space-evenly;
             }
         }
