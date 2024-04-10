@@ -1,0 +1,32 @@
+footer{
+    margin: 40px 100px;
+    .top-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .contact{}
+        .social-network{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            h5{
+                font-size: .875rem;
+                font-weight: 700;
+            }
+            &-img{
+                display: flex;
+                a{
+                    img{
+                        width: 50px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+    .bottom-section{
+        p{
+            text-align: center;
+        }
+    }
+}

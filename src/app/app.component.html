@@ -25,10 +25,30 @@
         </ul>
     </nav>
 </header>
-<main>
-    <router-outlet></router-outlet>
-</main>
-<footer>
-    <p>© 2024 Roland HUON. All right reserved.</p>
-    <p>Powered by Angular</p>
-</footer>
+<section class="main-section">
+    <main>
+        <router-outlet></router-outlet>
+    </main>
+    <footer>
+        <section class="top-section">
+            <div class="contact">
+                <p>Tél : <a href="tel:0779479151">07.79.47.91.51</a></p>
+                <p>Email : <a href="mailto:huonroland91@gmail.com">huonroland91@gmail.com</a></p>
+            </div>
+            <div class="social-network">
+                <h5>Social networks</h5>
+                <div class="social-network-img">
+                    <a href="https://www.linkedin.com/in/rolandhuon/" target="_blank">
+                        <img src="../assets/linkedin.png" alt="linkedin icon">
+                    </a>
+                    <a href="https://github.com/Roland-HUON" target="_blank">
+                        <img src="../assets/github.png" alt="github icon">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-section">
+            <p>© 2024 Roland HUON. All right reserved.</p>
+        </section>
+    </footer>
+</section>
