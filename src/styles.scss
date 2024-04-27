@@ -1,2 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
-@import 'scss/main.scss';
+/* Colors */
+$dark-blue-color : #312782;
+$white-color : #ffffff;
+
+/* Reset */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: quantum;
+}
+
+/* Colors */

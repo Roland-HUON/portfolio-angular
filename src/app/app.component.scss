@@ -1,0 +1,79 @@
+/* Colors */
+$dark-blue-color : #312782;
+$white-color : #ffffff;
+
+/* SCSS */
+header{
+    padding: 20px;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+    nav{
+        height: 100%;
+        ul{
+            height: 100%;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            li{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 0.75rem;
+                img{
+                    width: 40px;
+                    height: 40px;
+                }
+                a{
+                    font-size: 1.475rem;
+                }
+            }
+        }
+    }
+}
+
+.main-section{
+    main{}
+    footer{
+        margin: 40px 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .top-section{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .contact{
+                p{
+                    a{}
+                }
+            }
+            .social-network{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h5{
+                    font-size: .875rem;
+                    font-weight: 700;
+                }
+                &-img{
+                    display: flex;
+                    justify-content: space-around;
+                    a{
+                        img{
+                            width: 40px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom-section{
+            p{
+                text-align: center;
+            }
+        }
+    }
+}
